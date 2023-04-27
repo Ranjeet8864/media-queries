@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 700px){
+ body   {
+        background-color: red;
+    }
+    div::after{
+        content: 'this is a mobile phone';
+    }
+    
+}
+/* div{
+    text-align: center;
+    font-size: x-large;
+ } */
+@media screen and (max-width:500px){
+  body  {
+          background-color: olive;
+    }
+    div::after{
+        content: 'this is tablee';
+    }
+}
+div{
+    text-align: center;
+    font-size: x-large;
+ } 
+
+
+   
